@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko_kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Vayne | Kakao Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__carrier">SKT</span>
+            <span class="status-bar__clock">8:54</span>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__icon"><i class="fas fa-clock"></i></span>
+            <span class="status-bar__icon"><i class="fas fa-volume-mute"></i></span>
+            <span class="status-bar__icon"><i class="fas fa-wifi"></i></span>
+            <span class="status-bar__icon"><i class="fas fa-signal"></i></span>
+            <span class="status-bar__title">20%</span>
+            <span class="status-bar__icon"><i class="fas fa-battery-quarter"></i></span>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__column">
+            <a href="chat-list.html">
+                <span class="i fas fa-arrow-left"></span>
+            </a>
+            <span class="header__title">베인</span>
+        </div>
+        <div class="header__column">
+            <span class="header__icon"><i class="fas fa-search"></i></span>
+            <span class="header__icon"><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+    <main class="chat-screen">
+        <ul class="chat__message">
+            <span class="timestamp">2020년 7월 18일 토요일</span>
+            <li class="incomming__message">
+                <img src="images/vayne-1.png" class="chat__avatar">
+                <div class="message__content">
+                    <span class="author">베인</span>
+                    <span class="message__bubble">자신의 흔적을 지우려는 시도조차 하지 않는군...</span>
+                </div>
+            </li>
+            <li class="sent__message">
+                <div class="message__content">
+                    <span class="message__buble">저기...</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <div class="chat__write--container">
+        <div class="write__icon-left">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <input type="text"  placeholder="보낼 메세지를 입력하세요" class="chat__write-box">
+        <div class="write__icon-right">
+            <i class="far fa-smile"></i>
+            <i class="fas fa-hashtag"></i>
+        </div>
+    </div>
+</body>
+</html>

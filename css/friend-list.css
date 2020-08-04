@@ -1,0 +1,128 @@
+.friend{
+    margin: 100px 23px 0px 23px;
+}
+
+.my-profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-profile .my-profile__column{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.my-profile .my-avatar{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid #83632A;
+}
+
+.my-profile__content{
+    padding-left: 10px;
+}
+
+.my-profile__content .my-profile__name{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.my-profile__content .my-profile__status{
+    opacity: 0.8;
+}
+
+.friend .profile__title{
+    font-size: 11px;
+    font-weight: 700;
+    opacity: 0.8;
+    padding-top: 17px;
+    margin-bottom: 15px;
+    border-top: 1px solid #40331F;
+}
+
+.friends-list .profile:first-child{
+    padding-top: 15px;
+}
+
+.birthday{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.birthday .profile__column{
+    display: flex;
+    align-items: center;
+}
+
+.birthday .birthday__avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #83632A;
+}
+
+.channel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel .profile__column{
+    display: flex;
+    align-items: center;
+}
+
+.channel .channel__avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #83632A;
+}
+
+.profile-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-bottom: 17px;
+}
+
+.profile__column .profile__content{
+    padding-left: 10px;
+}
+
+.profile__column .profile__button,
+.profile__column .profile__now-listening{
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.profile__now-listening .profile__number{
+    margin-right: 5px;
+}
+
+.profile-box .profile__column{
+    display: flex;
+    align-items: center;
+}
+
+.profile-box .g-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #83632A;
+}
+
+.profile__content .profile__name{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile__column .profile__now-listening{
+    padding: 7px 10px;
+    border: 1px solid #83632A;
+    border-radius: 50px;
+}

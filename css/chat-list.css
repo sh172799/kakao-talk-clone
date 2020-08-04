@@ -1,0 +1,20 @@
+.chats{
+        margin: 100px 23px 0px 23px;
+}
+
+.profile__column .chat__timestamp{
+    display: block;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+.profile__column .chat__unread{
+    display:flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #40331F;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}

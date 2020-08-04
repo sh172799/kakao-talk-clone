@@ -1,0 +1,76 @@
+.more{
+    margin: 100px 23px 0px 23px;
+}
+
+.my-profile__column .my-profile__button{
+    font-weight: 700;
+    padding: 15px 20px;
+    border: 2px solid #40331F;
+    border-radius: 20px;
+    background-color: #1C232B;
+}
+
+.more .kakao-pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #1C232B;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.kakao-pay .kakao-pay__column:first-child{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #40331F;
+    border-radius: 20px;
+}
+
+.kakao-pay__column .kakao-pay__box{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.kakao-pay__box .kakao-pay__text-box{
+    padding: 0px 10px;
+}
+
+.kakao-pay__box .kakao-pay__icon{
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.kakao-pay__box .kakao-pay__title{
+    font-weight: 700;
+}
+
+.kakao-pay__box .kakao-pay__text-box:nth-child(2){
+    border-left: 1px solid #40331F;
+    border-right: 1px solid #40331F;
+}
+
+.kakao-pay__box .kakao-pay__text-box:last-child{
+    padding: 0px 0px 0px 10px;
+}
+
+.more .more__menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.more__item .more__icon{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.more__item .more__text{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}

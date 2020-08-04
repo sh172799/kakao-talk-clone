@@ -1,0 +1,17 @@
+.status-header__box{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.status-header__box .status-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010A13;
+    color: #BCC0C3;
+    padding: 10px 30px;
+    font-size: 14px;
+}

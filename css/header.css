@@ -1,0 +1,16 @@
+.header{
+    background-color: #1C232B;
+    border-bottom: 2px solid #40331F;
+    display: flex;
+    padding: 20px 23px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header__column .header__title{
+    font-weight: 700;
+}
+
+.header__column .header__icon{
+    padding-left: 15px;
+}

@@ -1,0 +1,22 @@
+.nav__list{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: #1C232B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #645F4C;
+    padding: 15px 0px;
+    border-top: 2px solid #40331F;
+}
+
+.nav__list .nav__icon,
+.nav__list .nav__icon-active{
+    font-size: 22px;
+}
+
+.nav__list .nav__icon-active{
+    color: #966C22;
+}

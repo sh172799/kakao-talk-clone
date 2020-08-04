@@ -1,0 +1,30 @@
+.find{
+    margin: 100px 23px 0px 23px;
+}
+
+.find__menu .find__list{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #40331F;
+}
+
+.find__item .find__icon{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.find__friend .find__friend-list{
+    margin-top: 30px;
+}
+
+.profile__column .recommend-friend__add{
+    padding: 10px 15px;
+    background-color: #1C232B;
+    border-radius: 5px;
+    font-size: 18px;
+}
